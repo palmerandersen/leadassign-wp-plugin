@@ -1,0 +1,7 @@
+/* this file is loaded on the settings page for this plugin */
+.leadassign-success {
+  color:green;
+}
+.leadassign-failure {
+  color:red;
+}

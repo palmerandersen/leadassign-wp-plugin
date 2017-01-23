@@ -1,0 +1,8 @@
+/* this stylesheet styles the contact form when enabled */
+input.wpcf7-text.leadassign {
+  width:100%;
+}
+
+textarea.wpcf7-textarea.leadassign {
+  width:100%;
+}
