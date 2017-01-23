@@ -1,0 +1,61 @@
+/* this stylesheet handles normal pages that may contain this plugin's widgetarea */
+#floating-widget-area-icon {
+  /*positioning*/
+  background-attachment: scroll;
+  position: fixed;
+  bottom:15px;
+  right:54px;
+  z-index:9999999;
+
+  /*other*/
+  cursor:pointer;
+}
+#floating-widget-area-menu {
+  /*positioning*/
+  position:fixed;
+  background-attachment: scroll;
+  bottom:50px;
+  top:40px;
+  right:-999999px;
+  z-index:9999999;
+
+  /*size*/
+  width:400px;
+  padding:10px;
+  font-size:70%;
+
+  /*color*/
+  background-color:white;
+
+  /*border*/
+  border-width:2px;
+  border-color:black;
+  border-style:solid;
+
+  /*margin*/
+  margin-bottom:20px;
+  margin-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+  display:block;
+
+  /*other*/
+  /*gotta be scrollable to fit larger widgets*/
+  overflow-y:scroll;
+}
+input.wpcf7-text.floating-menu-child {
+  /*wide text boxes look cleaner*/
+  /*width:100%;*/
+}
+textarea.wpcf7-textarea.floating-menu-child {
+  /*wide text boxes look cleaner*/
+  /*width:100%;*/
+}
+div.wpcf7-response-output.floating-menu-child {
+  /*hide it*/
+  /*opacity:0;*/
+}
+.floating-max-width-item {
+  /* nice and wide */
+  width:100%;
+}

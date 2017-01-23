@@ -47,3 +47,6 @@ include(plugin_dir_path(__FILE__).'actions.php');
 
 // setup FAQ
 include(plugin_dir_path(__FILE__).'faq.php');
+
+// include modules
+include(plugin_dir_path(__FILE__).'floating-widget-area/floating-widget-area.php');

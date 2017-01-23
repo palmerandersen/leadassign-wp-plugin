@@ -1,0 +1,6 @@
+/* this stylesheet is loaded when js is disabled */
+
+/* hide the icon because clicking it won't do anything anyways */
+img#floating-widget-area-icon {
+  display:none;
+}

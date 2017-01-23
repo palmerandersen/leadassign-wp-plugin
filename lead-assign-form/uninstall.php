@@ -11,3 +11,6 @@ require_once(plugin_dir_path(__FILE__).'vars.php');
 
 // delete options created  by the plugin
 delete_option($leadassign_setting_do_style_name);
+
+// done, forward the uninstall
+include(plugin_dir_path(__FILE__).'floating-widget-area/uninstall.php');

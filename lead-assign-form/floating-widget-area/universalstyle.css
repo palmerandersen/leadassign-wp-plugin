@@ -1,0 +1,8 @@
+/* this stylesheet is loaded on every page */
+
+/* this class is used by both the image and the preview for the icon, to ensure consistency when people modify the css */
+.floating-widget-area-icon {
+  /*size*/
+  width:35px;
+  height:35px;
+}
