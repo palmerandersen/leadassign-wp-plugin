@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Lead Assign
 Plugin URI:
 Description: Send leads from your website straight to Lead Assign
-Version: 1.0.2
+Version: 1.0.3
 Author: Lead Assign
 Author URI: https://leadassign.com/
 License: GPL2
