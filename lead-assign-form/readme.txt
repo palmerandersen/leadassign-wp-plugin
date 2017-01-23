@@ -38,5 +38,8 @@ Make sure that the Lead Assign Widget has been added to a widgetarea in Appearan
 
 == Changelog ==
 
+= 1.0.3 =
+* Integrated floating widget area
+
 = 1.0.2 =
 * Internationalized plugin
