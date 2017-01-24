@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 Plugin Name: Lead Assign
 Plugin URI:
 Description: Send leads from your website straight to Lead Assign
-Version: 1.0.3
+Version: 1.0.3.1
 Author: Lead Assign
 Author URI: https://leadassign.com/
 License: GPL2
@@ -27,6 +27,7 @@ require_once(plugin_dir_path(__FILE__).'values.php');
 function leadassign_activate() {
  // create options
  global $leadassign_setting_do_style_name;
+ global $leadassign_setting_surpress_warnings_name;
  global $leadassign_option_admin_notice_shown_name;
  add_option($leadassign_setting_do_style_name,1);
  add_option($leadassign_setting_surpress_warnings_name,0);
