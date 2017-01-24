@@ -71,9 +71,10 @@ function leadassign_check_dependencies() {
   else {
     $leadassign_contact_form_status =
     sprintf(
-      /* translators note: %s = failure classname */
-      __("<span class='%s'>NOT ACTIVE.</span> Get it <a href='http://wordpress.org/plugins/contact-form-7/'>here</a>.",'lead-assign'),
-      'leadassign-failure'
+      /* translators note: %1$s = classname for red text. %2$s = dynamic link to wpcf7 */
+      __("<span class='%1\$s'>NOT ACTIVE.</span> Get it <a href='%2\$s'>here</a>.",'lead-assign'),
+      'leadassign-failure',
+	  admin_url('plugin-install.php?s=contact+form+7&tab=search&type=term')
     );
     // contact form 7 isn't installed, so recaptcha can't be configured, either
     $leadassign_recaptcha_status =
