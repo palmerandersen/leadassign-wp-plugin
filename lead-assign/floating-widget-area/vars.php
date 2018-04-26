@@ -20,7 +20,7 @@ $floating_default_contact_form_form=
 [submit "Send"]';
 $floating_default_contact_form_mail=array (
 'subject' => 'Your Site "[your-subject]"',
-'sender' => '[your-name] <example@example.com>',
+'sender' => '<example@example.com>',
 'body' => 'From: [your-name] <[your-email]>
 Subject: [your-subject]
 
